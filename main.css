@@ -1,0 +1,73 @@
+
+
+body {
+  background-color: #F0F0F0;
+  position: relative;
+}
+
+
+
+
+button {color: pink;
+  background-color: #bd1835;
+  border-color: #a0142d;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#e32546), to(#bd1835));
+  background-image: -webkit-linear-gradient(top, #e32546, 0%, #bd1835, 100%);
+  background-image: -moz-linear-gradient(top, #e32546 0%, #bd1835 100%);
+  background-image: linear-gradient(to bottom, #e32546 0%, #bd1835 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe32546', endColorstr='#ffbd1835', GradientType=0);
+}
+
+#message{
+    display: none;
+    position:fixed;
+    z-index: 1000;
+}
+button:hover,
+button:focus {
+ cursor: pointer;
+  color: white;
+  background-color: #a0142d;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#a0142d), to(#cd1a39));
+  background-image: -webkit-linear-gradient(top, #a0142d, 0%, #cd1a39, 100%);
+  background-image: -moz-linear-gradient(top, #a0142d 0%, #cd1a39 100%);
+  background-image: linear-gradient(to bottom, #a0142d 0%, #cd1a39 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa0142d', endColorstr='#ffcd1a39', GradientType=0);
+}
+
+
+h2{
+    font-family: Arial Narrow, sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+  line-height: 0.9em;
+}
+.texte{
+    color: #ccc;
+}
+#s1
+{
+ 
+   padding-top:65px;
+  
+}
+
+
+#es {
+    background-color: #F2D412;
+  
+}
+
+#s1 p {
+    line-height: 0.9em;
+   }
+#s1 img {
+   position:relative;
+    left:0px;
+   height: 300px;
+    top:-10px;
+  
+   
+}
